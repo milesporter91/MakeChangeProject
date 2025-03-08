@@ -183,7 +183,7 @@ public class MakeChangeProject {
 		}
 		System.out.println();
 
-		System.out.println("Thank you! Have a fantastic day!");
+		printFarewellMessage();
 		kb.close();
 	}
 	
@@ -203,6 +203,17 @@ public class MakeChangeProject {
 	        System.out.println("             |___|");
 	        System.out.println("            (_____)  ");
 	        System.out.println("           (_______)  ");
+	}
+	
+	public static void printFarewellMessage() {
+		System.out.println();
+        System.out.println("    +----------------------+  ");
+        System.out.println("    |   THANK YOU!         |  ");
+        System.out.println("    |   COME AGAIN SOON!   |  ");
+        System.out.println("    +----------------------+  ");
+        System.out.println("         $$$      $$$        ");
+        System.out.println("        $   $    $   $       ");
+        System.out.println("         $$$      $$$        ");
 	}
 
 }
