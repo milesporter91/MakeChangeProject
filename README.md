@@ -26,6 +26,7 @@ To begin, run the program:
 - Casting values
 - Concatenation
 - While Loop
+- Methods
 
 ## Lessons Learned
 - Concatenation using if statements to control plurality of strings based on variables
