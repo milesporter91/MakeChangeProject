@@ -6,6 +6,7 @@ public class MakeChangeProject {
 
 	public static void main(String[] args) {
 		Scanner kb = new Scanner(System.in);
+		printCashRegisterLogo();
 		boolean keepShopping = true;
 		while (keepShopping) {
 			System.out.println();
@@ -184,6 +185,24 @@ public class MakeChangeProject {
 
 		System.out.println("Thank you! Have a fantastic day!");
 		kb.close();
+	}
+	
+	public static void printCashRegisterLogo() {
+		 	System.out.println("       __________________");
+	        System.out.println("      |       JAVA       |");
+	        System.out.println("      |   CASH REGISTER  |");
+	        System.out.println("      |__________________|");
+	        System.out.println("      |  [====]  [====]  |");
+	        System.out.println("      |  [====]  [====]  |");
+	        System.out.println("      |  [====]  [====]  |");
+	        System.out.println("      |__________________|");
+	        System.out.println("      |                  |");
+	        System.out.println("      |   TOTAL: $0.00   |");
+	        System.out.println("      |__________________|");
+	        System.out.println("             |   |");
+	        System.out.println("             |___|");
+	        System.out.println("            (_____)  ");
+	        System.out.println("           (_______)  ");
 	}
 
 }
