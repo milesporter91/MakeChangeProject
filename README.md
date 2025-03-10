@@ -1,8 +1,9 @@
 # Make Change Project
 
 ## Description
-Welcome to my Java Cash Register! This program will take an input purchase amount, and input amount tendered, and output the amount of change due, as well as the denominations of the bills and coints due to the customer. 
+Welcome to my Java Cash Register! This program will take a purchase amount input by the user, an amount tendered input by the user, and calculate and output the amount of change due, as well as the denominations of the bills and coins due to the customer. 
 
+## Instructions
 To begin, run the program:
 ### Step 1: Input purchase price
 ### Step 2: Input amount paid
@@ -11,6 +12,8 @@ To begin, run the program:
 ### Step 5: Program loops back to step 1, or outputs farewell message.
 
 **NOTE:** Amount paid must be higher than the purchase price. If insufficient funds are supplied, the remaining balance will be told to the customer.
+
+If anything other than a number is input for currency inputs, the program will stop
 
 ## Technologies Used
 - Java
